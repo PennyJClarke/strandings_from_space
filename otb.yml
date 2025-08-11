@@ -1,0 +1,10 @@
+name: otb
+channels:
+  - orfeotoolbox
+  - eugeneplanteur
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - numpy
+  - notebook

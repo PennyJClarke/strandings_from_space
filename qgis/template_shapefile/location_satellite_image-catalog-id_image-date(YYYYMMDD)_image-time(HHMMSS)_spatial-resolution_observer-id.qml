@@ -1,0 +1,1776 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis minScale="100000000" styleCategories="AllStyleCategories" labelsEnabled="0" simplifyMaxScale="1" version="3.28.1-Firenze" maxScale="0" simplifyAlgorithm="0" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="0" symbologyReferenceScale="-1" readOnly="0" simplifyLocal="1">
+  <flags>
+    <Identifiable>1</Identifiable>
+    <Removable>1</Removable>
+    <Searchable>1</Searchable>
+    <Private>0</Private>
+  </flags>
+  <temporal endField="" fixedDuration="0" accumulate="0" limitMode="0" mode="0" startField="" endExpression="" durationField="" startExpression="" enabled="0" durationUnit="min">
+    <fixedRange>
+      <start></start>
+      <end></end>
+    </fixedRange>
+  </temporal>
+  <elevation type="IndividualFeatures" symbology="Line" binding="Centroid" clamping="Terrain" showMarkerSymbolInSurfacePlots="0" extrusionEnabled="0" extrusion="0" zscale="1" zoffset="0" respectLayerSymbol="1">
+    <data-defined-properties>
+      <Option type="Map">
+        <Option type="QString" name="name" value=""/>
+        <Option name="properties"/>
+        <Option type="QString" name="type" value="collection"/>
+      </Option>
+    </data-defined-properties>
+    <profileLineSymbol>
+      <symbol clip_to_extent="1" force_rhr="0" type="line" name="" frame_rate="10" alpha="1" is_animated="0">
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+        <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+          <Option type="Map">
+            <Option type="QString" name="align_dash_pattern" value="0"/>
+            <Option type="QString" name="capstyle" value="square"/>
+            <Option type="QString" name="customdash" value="5;2"/>
+            <Option type="QString" name="customdash_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+            <Option type="QString" name="customdash_unit" value="MM"/>
+            <Option type="QString" name="dash_pattern_offset" value="0"/>
+            <Option type="QString" name="dash_pattern_offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+            <Option type="QString" name="dash_pattern_offset_unit" value="MM"/>
+            <Option type="QString" name="draw_inside_polygon" value="0"/>
+            <Option type="QString" name="joinstyle" value="bevel"/>
+            <Option type="QString" name="line_color" value="196,60,57,255"/>
+            <Option type="QString" name="line_style" value="solid"/>
+            <Option type="QString" name="line_width" value="0.6"/>
+            <Option type="QString" name="line_width_unit" value="MM"/>
+            <Option type="QString" name="offset" value="0"/>
+            <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+            <Option type="QString" name="offset_unit" value="MM"/>
+            <Option type="QString" name="ring_filter" value="0"/>
+            <Option type="QString" name="trim_distance_end" value="0"/>
+            <Option type="QString" name="trim_distance_end_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+            <Option type="QString" name="trim_distance_end_unit" value="MM"/>
+            <Option type="QString" name="trim_distance_start" value="0"/>
+            <Option type="QString" name="trim_distance_start_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+            <Option type="QString" name="trim_distance_start_unit" value="MM"/>
+            <Option type="QString" name="tweak_dash_pattern_on_corners" value="0"/>
+            <Option type="QString" name="use_custom_dash" value="0"/>
+            <Option type="QString" name="width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+          </Option>
+          <data_defined_properties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option name="properties"/>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </data_defined_properties>
+        </layer>
+      </symbol>
+    </profileLineSymbol>
+    <profileFillSymbol>
+      <symbol clip_to_extent="1" force_rhr="0" type="fill" name="" frame_rate="10" alpha="1" is_animated="0">
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+        <layer class="SimpleFill" pass="0" locked="0" enabled="1">
+          <Option type="Map">
+            <Option type="QString" name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+            <Option type="QString" name="color" value="196,60,57,255"/>
+            <Option type="QString" name="joinstyle" value="bevel"/>
+            <Option type="QString" name="offset" value="0,0"/>
+            <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+            <Option type="QString" name="offset_unit" value="MM"/>
+            <Option type="QString" name="outline_color" value="140,43,41,255"/>
+            <Option type="QString" name="outline_style" value="solid"/>
+            <Option type="QString" name="outline_width" value="0.2"/>
+            <Option type="QString" name="outline_width_unit" value="MM"/>
+            <Option type="QString" name="style" value="solid"/>
+          </Option>
+          <data_defined_properties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option name="properties"/>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </data_defined_properties>
+        </layer>
+      </symbol>
+    </profileFillSymbol>
+    <profileMarkerSymbol>
+      <symbol clip_to_extent="1" force_rhr="0" type="marker" name="" frame_rate="10" alpha="1" is_animated="0">
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+        <layer class="SimpleMarker" pass="0" locked="0" enabled="1">
+          <Option type="Map">
+            <Option type="QString" name="angle" value="0"/>
+            <Option type="QString" name="cap_style" value="square"/>
+            <Option type="QString" name="color" value="196,60,57,255"/>
+            <Option type="QString" name="horizontal_anchor_point" value="1"/>
+            <Option type="QString" name="joinstyle" value="bevel"/>
+            <Option type="QString" name="name" value="diamond"/>
+            <Option type="QString" name="offset" value="0,0"/>
+            <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+            <Option type="QString" name="offset_unit" value="MM"/>
+            <Option type="QString" name="outline_color" value="140,43,41,255"/>
+            <Option type="QString" name="outline_style" value="solid"/>
+            <Option type="QString" name="outline_width" value="0.2"/>
+            <Option type="QString" name="outline_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+            <Option type="QString" name="outline_width_unit" value="MM"/>
+            <Option type="QString" name="scale_method" value="diameter"/>
+            <Option type="QString" name="size" value="3"/>
+            <Option type="QString" name="size_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+            <Option type="QString" name="size_unit" value="MM"/>
+            <Option type="QString" name="vertical_anchor_point" value="1"/>
+          </Option>
+          <data_defined_properties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option name="properties"/>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </data_defined_properties>
+        </layer>
+      </symbol>
+    </profileMarkerSymbol>
+  </elevation>
+  <renderer-v2 type="singleSymbol" symbollevels="0" forceraster="0" referencescale="-1" enableorderby="0">
+    <symbols>
+      <symbol clip_to_extent="1" force_rhr="0" type="marker" name="0" frame_rate="10" alpha="1" is_animated="0">
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+        <layer class="SimpleMarker" pass="0" locked="0" enabled="1">
+          <Option type="Map">
+            <Option type="QString" name="angle" value="0"/>
+            <Option type="QString" name="cap_style" value="square"/>
+            <Option type="QString" name="color" value="251,255,1,255"/>
+            <Option type="QString" name="horizontal_anchor_point" value="1"/>
+            <Option type="QString" name="joinstyle" value="bevel"/>
+            <Option type="QString" name="name" value="circle"/>
+            <Option type="QString" name="offset" value="0,0"/>
+            <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+            <Option type="QString" name="offset_unit" value="MM"/>
+            <Option type="QString" name="outline_color" value="35,35,35,255"/>
+            <Option type="QString" name="outline_style" value="solid"/>
+            <Option type="QString" name="outline_width" value="0"/>
+            <Option type="QString" name="outline_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+            <Option type="QString" name="outline_width_unit" value="MM"/>
+            <Option type="QString" name="scale_method" value="diameter"/>
+            <Option type="QString" name="size" value="2"/>
+            <Option type="QString" name="size_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+            <Option type="QString" name="size_unit" value="MM"/>
+            <Option type="QString" name="vertical_anchor_point" value="1"/>
+          </Option>
+          <data_defined_properties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option name="properties"/>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </data_defined_properties>
+        </layer>
+      </symbol>
+    </symbols>
+    <rotation/>
+    <sizescale/>
+  </renderer-v2>
+  <customproperties>
+    <Option type="Map">
+      <Option type="List" name="dualview/previewExpressions">
+        <Option type="QString" value="&quot;id&quot;"/>
+      </Option>
+      <Option type="int" name="embeddedWidgets/count" value="0"/>
+      <Option name="variableNames"/>
+      <Option name="variableValues"/>
+    </Option>
+  </customproperties>
+  <blendMode>0</blendMode>
+  <featureBlendMode>0</featureBlendMode>
+  <layerOpacity>1</layerOpacity>
+  <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+    <DiagramCategory backgroundAlpha="255" width="15" height="15" maxScaleDenominator="1e+08" penWidth="0" backgroundColor="#ffffff" spacing="5" spacingUnitScale="3x:0,0,0,0,0,0" penAlpha="255" spacingUnit="MM" diagramOrientation="Up" minimumSize="0" rotationOffset="270" opacity="1" sizeType="MM" showAxis="1" penColor="#000000" lineSizeType="MM" minScaleDenominator="0" labelPlacementMethod="XHeight" barWidth="5" lineSizeScale="3x:0,0,0,0,0,0" scaleBasedVisibility="0" direction="0" sizeScale="3x:0,0,0,0,0,0" scaleDependency="Area" enabled="0">
+      <fontProperties bold="0" strikethrough="0" description="MS Shell Dlg 2,8,-1,5,50,0,0,0,0,0" underline="0" style="" italic="0"/>
+      <attribute field="" color="#000000" colorOpacity="1" label=""/>
+      <axisSymbol>
+        <symbol clip_to_extent="1" force_rhr="0" type="line" name="" frame_rate="10" alpha="1" is_animated="0">
+          <data_defined_properties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option name="properties"/>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </data_defined_properties>
+          <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+            <Option type="Map">
+              <Option type="QString" name="align_dash_pattern" value="0"/>
+              <Option type="QString" name="capstyle" value="square"/>
+              <Option type="QString" name="customdash" value="5;2"/>
+              <Option type="QString" name="customdash_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+              <Option type="QString" name="customdash_unit" value="MM"/>
+              <Option type="QString" name="dash_pattern_offset" value="0"/>
+              <Option type="QString" name="dash_pattern_offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+              <Option type="QString" name="dash_pattern_offset_unit" value="MM"/>
+              <Option type="QString" name="draw_inside_polygon" value="0"/>
+              <Option type="QString" name="joinstyle" value="bevel"/>
+              <Option type="QString" name="line_color" value="35,35,35,255"/>
+              <Option type="QString" name="line_style" value="solid"/>
+              <Option type="QString" name="line_width" value="0.26"/>
+              <Option type="QString" name="line_width_unit" value="MM"/>
+              <Option type="QString" name="offset" value="0"/>
+              <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+              <Option type="QString" name="offset_unit" value="MM"/>
+              <Option type="QString" name="ring_filter" value="0"/>
+              <Option type="QString" name="trim_distance_end" value="0"/>
+              <Option type="QString" name="trim_distance_end_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+              <Option type="QString" name="trim_distance_end_unit" value="MM"/>
+              <Option type="QString" name="trim_distance_start" value="0"/>
+              <Option type="QString" name="trim_distance_start_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+              <Option type="QString" name="trim_distance_start_unit" value="MM"/>
+              <Option type="QString" name="tweak_dash_pattern_on_corners" value="0"/>
+              <Option type="QString" name="use_custom_dash" value="0"/>
+              <Option type="QString" name="width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+            </Option>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" name="name" value=""/>
+                <Option name="properties"/>
+                <Option type="QString" name="type" value="collection"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+      </axisSymbol>
+    </DiagramCategory>
+  </SingleCategoryDiagramRenderer>
+  <DiagramLayerSettings obstacle="0" zIndex="0" linePlacementFlags="18" showAll="1" placement="0" priority="0" dist="0">
+    <properties>
+      <Option type="Map">
+        <Option type="QString" name="name" value=""/>
+        <Option name="properties"/>
+        <Option type="QString" name="type" value="collection"/>
+      </Option>
+    </properties>
+  </DiagramLayerSettings>
+  <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+    <activeChecks/>
+    <checkConfiguration/>
+  </geometryOptions>
+  <legend type="default-vector" showLabelLegend="0"/>
+  <referencedLayers/>
+  <fieldConfiguration>
+    <field name="id" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option type="Map">
+            <Option type="bool" name="IsMultiline" value="false"/>
+            <Option type="bool" name="UseHtml" value="false"/>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="observer" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option type="Map">
+            <Option type="bool" name="IsMultiline" value="false"/>
+            <Option type="bool" name="UseHtml" value="false"/>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="location" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option type="Map">
+            <Option type="bool" name="IsMultiline" value="false"/>
+            <Option type="bool" name="UseHtml" value="false"/>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="satellite" configurationFlags="None">
+      <editWidget type="ValueMap">
+        <config>
+          <Option type="Map">
+            <Option type="List" name="map">
+              <Option type="Map">
+                <Option type="QString" name="airbus_pleiades" value="airbus_pleiades"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="airbus_pleiades_neo" value="airbus_pleiades_neo"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="albedo_clarity_1" value="albedo_clarity_1"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="maxar_geoeye_1" value="maxar_geoeye_1"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="maxar_quickbird" value="maxar_quickbird"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="maxar_worldview_1" value="maxar_worldview_1"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="maxar_worldview_2" value="maxar_worldview_2"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="maxar_worldview_3" value="maxar_worldview_3"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="maxar_worldview_4" value="maxar_worldview_4"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="maxar_worldview_legion" value="maxar_worldview_legion"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="planet_skysat" value="planet_skysat"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="planet_pelican" value="planet_pelican"/>
+              </Option>
+            </Option>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="img_cat_id" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option type="Map">
+            <Option type="bool" name="IsMultiline" value="false"/>
+            <Option type="bool" name="UseHtml" value="false"/>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="img_date" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option type="Map">
+            <Option type="bool" name="IsMultiline" value="false"/>
+            <Option type="bool" name="UseHtml" value="false"/>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="img_time" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option type="Map">
+            <Option type="bool" name="IsMultiline" value="false"/>
+            <Option type="bool" name="UseHtml" value="false"/>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="gsd_m" configurationFlags="None">
+      <editWidget type="ValueMap">
+        <config>
+          <Option type="Map">
+            <Option type="List" name="map">
+              <Option type="Map">
+                <Option type="QString" name="0.1" value="0.1"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="0.15" value="0.15"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="0.2" value="0.2"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="0.3" value="0.3"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="0.31" value="0.31"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="0.4" value="0.4"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="0.46" value="0.46"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="0.5" value="0.5"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="0.6" value="0.6"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="0.65" value="0.65"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="0.7" value="0.7"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="0.75" value="0.75"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="0.8" value="0.8"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="0.9" value="0.9"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="1" value="1"/>
+              </Option>
+            </Option>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="prod_type" configurationFlags="None">
+      <editWidget type="ValueMap">
+        <config>
+          <Option type="Map">
+            <Option type="List" name="map">
+              <Option type="Map">
+                <Option type="QString" name="airbus_primary" value="airbus_primary"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="airbus_projected" value="airbus_projected"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="airbus_ortho" value="airbus_ortho"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="albedo_photogrammetry_ready" value="albedo_photogrammetry_ready"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="albedo_view_ready" value="albedo_view_ready"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="albedo_analysis_ready" value="albedo_analysis_ready"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="maxar_system-ready_(basic)_1b" value="maxar_system-ready_(basic)_1b"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="maxar_system-ready_stereo_(basic)_1b" value="maxar_system-ready_stereo_(basic)_1b"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="maxar_view-ready_(standard)_or2a" value="maxar_view-ready_(standard)_or2a"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="maxar_view-ready_stereo_(standard)_or2a" value="maxar_view-ready_stereo_(standard)_or2a"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="maxar_view-ready_(standard)_2a" value="maxar_view-ready_(standard)_2a"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="maxar_map-ready_(ortho)_1:12,000" value="maxar_map-ready_(ortho)_1:12,000"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="planet_skysat_basic_scene" value="planet_skysat_basic_scene"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="planet_skysat_ortho_scene" value="planet_skysat_ortho_scene"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="planet_skysat_ortho_collect" value="planet_skysat_ortho_collect"/>
+              </Option>
+            </Option>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="projection" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option type="Map">
+            <Option type="bool" name="IsMultiline" value="false"/>
+            <Option type="bool" name="UseHtml" value="false"/>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="pansharpen" configurationFlags="None">
+      <editWidget type="ValueMap">
+        <config>
+          <Option type="Map">
+            <Option type="List" name="map">
+              <Option type="Map">
+                <Option type="QString" name="gdal_average" value="gdal_average"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="gdal_bilinear" value="gdal_bilinear"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="gdal_cubic" value="gdal_cubic"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="gdal_cubic_spline" value="gdal_cubic_spline"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="gdal_lanczos_windowed_sinc" value="gdal_lanczos_windowed_sinc"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="gdal_nearest_neighbour" value="gdal_nearest_neighbour"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="otb_bayes_bco" value="otb_bayes_bco"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="otb_bayes_nn" value="otb_bayes_nn"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="otb_bayes_linear" value="otb_bayes_linear"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="otb_rcs_bco" value="otb_rcs_bco"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="otb_rcs_nn" value="otb_rcs_nn"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="otb_rcs_linear" value="otb_rcs_linear"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="otb_lmvm_bco" value="otb_lmvm_bco"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="otb_lmvm_nn" value="otb_lmvm_nn"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="otb_lmvm_linear" value="otb_lmvm_linear"/>
+              </Option>
+            </Option>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="band_combi" configurationFlags="None">
+      <editWidget type="ValueMap">
+        <config>
+          <Option type="Map">
+            <Option type="List" name="map">
+              <Option type="Map">
+                <Option type="QString" name="3,2,1" value="4_band_3,2,1"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="1,2,3" value="4_band_1,2,3"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="4,3,1" value="4_band_4,3,1"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="4,3,2" value="6_band_4,3,2"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="5,3,2" value="8_band_5,3,2"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="6,4,3" value="8_band_6,4,3"/>
+              </Option>
+            </Option>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="feature" configurationFlags="None">
+      <editWidget type="ValueMap">
+        <config>
+          <Option type="Map">
+            <Option type="List" name="map">
+              <Option type="Map">
+                <Option type="QString" name="stranded_cetacean" value="stranded_cetacean"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="floating_carcass" value="floating_carcass"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="live_cetacean" value="live_cetacean"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="boat" value="boat"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="marine_litter" value="marine_litter"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="organic_beach_debris" value="organic_beach_debris"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="rock" value="rock"/>
+              </Option>
+            </Option>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="*deco_phas" configurationFlags="None">
+      <editWidget type="ValueMap">
+        <config>
+          <Option type="Map">
+            <Option type="List" name="map">
+              <Option type="Map">
+                <Option type="QString" name="fresh_alive" value="fresh_alive"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="fresh_dead" value="fresh_dead"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="bloating_and_floating" value="bloating_and_floating"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="active_decomposition" value="active_decomposition"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="passive_decomposition" value="passive_decomposition"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="dry_remains" value="dry_remains"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="unknown" value="unknown"/>
+              </Option>
+            </Option>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="*certainty" configurationFlags="None">
+      <editWidget type="ValueMap">
+        <config>
+          <Option type="Map">
+            <Option type="List" name="map">
+              <Option type="Map">
+                <Option type="QString" name="definite_(90-100%)" value="definite_(90-100%)"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="likely_(70-89%)" value="likely_(70-89%)"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="possible_(50-69%)" value="possible_(50-69%)"/>
+              </Option>
+            </Option>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="*species" configurationFlags="None">
+      <editWidget type="ValueMap">
+        <config>
+          <Option type="Map">
+            <Option type="List" name="map">
+              <Option type="Map">
+                <Option type="QString" name="unidentified_whale" value="unidentified_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="unidentified_dolphin" value="unidentified_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="unidentified_small_whale" value="unidentified_small_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="unidentified_large_baleen_whale" value="unidentified_large_baleen_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="unidentified_large_whale" value="unidentified_large_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="bowhead_whale" value="bowhead_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="north_atlantic_right_whale" value="north_atlantic_right_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="north_pacific_right_whale" value="north_pacific_right_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="southern_right_whale" value="southern_right_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="pygmy_right_whale" value="pygmy_right_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="gray_whale" value="gray_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="common_minke_whale" value="common_minke_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="north_atlantic_minke_whale" value="north_atlantic_minke_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="north_pacific_minke_whale" value="north_pacific_minke_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="antarctic_minke_whale" value="antarctic_minke_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="sei_whale" value="sei_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="northern_sei_whale" value="northern_sei_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="southern_sei_whale" value="southern_sei_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="bryde’s_whale" value="bryde’s_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="eden’s_whale" value="eden’s_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="blue_whale" value="blue_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="northern_blue_whale" value="northern_blue_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="antarctic_blue_whale" value="antarctic_blue_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="northern_indian_ocean_blue_whale" value="northern_indian_ocean_blue_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="pygmy_blue_whale" value="pygmy_blue_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="omura’s_whale" value="omura’s_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="fin_whale" value="fin_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="north_atlantic_fin_whale" value="north_atlantic_fin_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="southern_fin_whale" value="southern_fin_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="north_pacific_fin_whale" value="north_pacific_fin_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="rice’s_whale" value="rice’s_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="humpback_whale" value="humpback_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="southern_humpback_whale" value="southern_humpback_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="north_pacific_humpback_whale" value="north_pacific_humpback_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="north_atlantic_humpback_whale" value="north_atlantic_humpback_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="sperm_whale" value="sperm_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="pygmy_sperm_whale" value="pygmy_sperm_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="dwarf_sperm_whale" value="dwarf_sperm_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="beaked_whale" value="beaked_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="arnoux’s_beaked_whale" value="arnoux’s_beaked_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="baird’s_beaked_whale" value="baird’s_beaked_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="sato’s_beaked_whale" value="sato’s_beaked_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="northern_bottlenose_whale" value="northern_bottlenose_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="southern_bottlenose_whale" value="southern_bottlenose_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="longman’s_beaked_whale" value="longman’s_beaked_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="sowerby’s_beaked_whale" value="sowerby’s_beaked_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="andrews’_beaked_whale" value="andrews’_beaked_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="hubbs’_beaked_whale" value="hubbs’_beaked_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="ramari’s_beaked_whale" value="ramari’s_beaked_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="gervais’_beaked_whale" value="gervais’_beaked_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="ginkgo-toothed_beaked_whale" value="ginkgo-toothed_beaked_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="gray’s_beaked_whale" value="gray’s_beaked_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="hector’s_beaked_whale" value="hector’s_beaked_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="deraniyagala’s_beaked_whale" value="deraniyagala’s_beaked_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="strap-toothed_beaked_whale" value="strap-toothed_beaked_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="true’s_beaked_whale" value="true’s_beaked_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="perrin’s_beaked_whale" value="perrin’s_beaked_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="pygmy_beaked_whale" value="pygmy_beaked_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="stejneger’s_beaked_whale" value="stejneger’s_beaked_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="spade-toothed_whale" value="spade-toothed_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="blainville’s_beaked_whale" value="blainville’s_beaked_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="shepherd’s_beaked_whale" value="shepherd’s_beaked_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="cuvier’s_beaked_whale" value="cuvier’s_beaked_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="ganges_river_dolphin" value="ganges_river_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="indus_river_dolphin" value="indus_river_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="amazon_river_dolphin" value="amazon_river_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="bolivian_bufeo" value="bolivian_bufeo"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="common_boto" value="common_boto"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="yangtze_river_dolphin" value="yangtze_river_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="franciscana" value="franciscana"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="beluga" value="beluga"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="narwhal" value="narwhal"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="commerson’s_dolphin" value="commerson’s_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="kerguelen_dolphin" value="kerguelen_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="chilean_dolphin" value="chilean_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="heaviside’s_dolphin" value="heaviside’s_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="hector’s_dolphin" value="hector’s_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="south_island_hector’s_dolphin" value="south_island_hector’s_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="maui_dolphin" value="maui_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="common_dolphin" value="common_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="eastern_north_pacific_long-beaked_common_dolphin" value="eastern_north_pacific_long-beaked_common_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="black_sea_common_dolphin" value="black_sea_common_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="indo-pacific_common_dolphin" value="indo-pacific_common_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="pygmy_killer_whale" value="pygmy_killer_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="short-finned_pilot_whale" value="short-finned_pilot_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="long-finned_pilot_whale" value="long-finned_pilot_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="southern_long-finned_pilot_whale" value="southern_long-finned_pilot_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="north_atlantic_long-finned_pilot_whale" value="north_atlantic_long-finned_pilot_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="risso’s_dolphin" value="risso’s_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="fraser’s_dolphin" value="fraser’s_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="atlantic_white-sided_dolphin" value="atlantic_white-sided_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="white-beaked_dolphin" value="white-beaked_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="peale’s_dolphin" value="peale’s_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="hourglass_dolphin" value="hourglass_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="pacific_white-sided_dolphin" value="pacific_white-sided_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="dusky_dolphin" value="dusky_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="fitzroy’s_dolphin" value="fitzroy’s_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="african_dusky_dolphin" value="african_dusky_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="peruvian/chilean_dusky_dolphin" value="peruvian/chilean_dusky_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="northern_right-whale_dolphin" value="northern_right-whale_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="southern_right-whale_dolphin" value="southern_right-whale_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="irrawaddy_dolphin" value="irrawaddy_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="australian_snubfin_dolphin" value="australian_snubfin_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="killer_whale" value="killer_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="resident_killer_whale" value="resident_killer_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="common_killer_whale" value="common_killer_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="bigg’s_killer_whale" value="bigg’s_killer_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="melon-headed_whale" value="melon-headed_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="false_killer_whale" value="false_killer_whale"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="atlantic_humpback_dolphin" value="atlantic_humpback_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="indo-pacific_humpback_dolphin" value="indo-pacific_humpback_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="chinese_humpback_dolphin" value="chinese_humpback_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="taiwanese_humpback_dolphin" value="taiwanese_humpback_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="indian_ocean_humpback_dolphin" value="indian_ocean_humpback_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="australian_humpback_dolphin" value="australian_humpback_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="tucuxi" value="tucuxi"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="guiana_dolphin" value="guiana_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="pantropical_spotted_dolphin" value="pantropical_spotted_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="offshore_pantropical_spotted_dolphin" value="offshore_pantropical_spotted_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="coastal_pantropical_spotted_dolphin" value="coastal_pantropical_spotted_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="clymene_dolphin" value="clymene_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="striped_dolphin" value="striped_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="atlantic_spotted_dolphin" value="atlantic_spotted_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="spinner_dolphin" value="spinner_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="central_american_spinner_dolphin" value="central_american_spinner_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="gray’s_spinner_dolphin" value="gray’s_spinner_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="eastern_spinner_dolphin" value="eastern_spinner_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="dwarf_spinner_dolphin" value="dwarf_spinner_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="rough-toothed_dolphin" value="rough-toothed_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="indo-pacific_bottlenose_dolphin" value="indo-pacific_bottlenose_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="tamanend’s_bottlenose_dolphin" value="tamanend’s_bottlenose_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="common bottlenose_dolphin" value="common bottlenose_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="lahille’s_bottlenose_dolphin" value="lahille’s_bottlenose_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="eastern_tropical_pacific_bottlenose_dolphin" value="eastern_tropical_pacific_bottlenose_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="black_sea_bottlenose_dolphin" value="black_sea_bottlenose_dolphin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="indo-pacific_finless_porpoise" value="indo-pacific_finless_porpoise"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="narrow-ridged_finless_porpoise" value="narrow-ridged_finless_porpoise"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="yangtze_finless_porpoise" value="yangtze_finless_porpoise"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="east_asian_finless_porpoise" value="east_asian_finless_porpoise"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="spectacled_porpoise" value="spectacled_porpoise"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="harbor_porpoise" value="harbor_porpoise"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="atlantic_harbor_porpoise" value="atlantic_harbor_porpoise"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="pacific_harbor_porpoise" value="pacific_harbor_porpoise"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="black_sea_harbor_porpoise" value="black_sea_harbor_porpoise"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="vaquita" value="vaquita"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="burmeister’s_porpoise" value="burmeister’s_porpoise"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="dall’s_porpoise" value="dall’s_porpoise"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="dalli-type_dall’s_porpoise" value="dalli-type_dall’s_porpoise"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="truei-type_dall’s_porpoise" value="truei-type_dall’s_porpoise"/>
+              </Option>
+            </Option>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="*colour" configurationFlags="None">
+      <editWidget type="ValueMap">
+        <config>
+          <Option type="Map">
+            <Option type="List" name="map">
+              <Option type="Map">
+                <Option type="QString" name="black" value="black"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="brown" value="brown"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="cream" value="cream"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="dark_grey" value="dark_grey"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="light_grey" value="light_grey"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="orange" value="orange"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="pink" value="pink"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="red" value="red"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="white" value="white"/>
+              </Option>
+            </Option>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="*body_shap" configurationFlags="None">
+      <editWidget type="ValueMap">
+        <config>
+          <Option type="Map">
+            <Option type="List" name="map">
+              <Option type="Map">
+                <Option type="QString" name="ellipsoid" value="ellipsoid"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="streamline" value="streamline"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="irregular_ellipsoid" value="irregular_ellipsoid"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="irregular_streamline" value="irregular_streamline"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="undefinable" value="undefinable"/>
+              </Option>
+            </Option>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="*length" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option type="Map">
+            <Option type="bool" name="IsMultiline" value="false"/>
+            <Option type="bool" name="UseHtml" value="false"/>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="*width" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option type="Map">
+            <Option type="bool" name="IsMultiline" value="false"/>
+            <Option type="bool" name="UseHtml" value="false"/>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="*flippers" configurationFlags="None">
+      <editWidget type="ValueMap">
+        <config>
+          <Option type="Map">
+            <Option type="List" name="map">
+              <Option type="Map">
+                <Option type="QString" name="yes" value="yes"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="no" value="no"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="maybe" value="maybe"/>
+              </Option>
+            </Option>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="*fluke" configurationFlags="None">
+      <editWidget type="ValueMap">
+        <config>
+          <Option type="Map">
+            <Option type="List" name="map">
+              <Option type="Map">
+                <Option type="QString" name="yes" value="yes"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="no" value="no"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="maybe" value="maybe"/>
+              </Option>
+            </Option>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="*slick/blo" configurationFlags="None">
+      <editWidget type="ValueMap">
+        <config>
+          <Option type="Map">
+            <Option type="List" name="map">
+              <Option type="Map">
+                <Option type="QString" name="yes" value="yes"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="no" value="no"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="maybe" value="maybe"/>
+              </Option>
+            </Option>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="*group" configurationFlags="None">
+      <editWidget type="ValueMap">
+        <config>
+          <Option type="Map">
+            <Option type="List" name="map">
+              <Option type="Map">
+                <Option type="QString" name="individual" value="individual"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="2_to_5" value="2_to_5"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="6_to_10" value="6_to_10"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="11_to_50" value="11_to_50"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="51_to_100" value="51_to_100"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="101_to_200" value="101_to_200"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="201_to_500" value="201_to_500"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="501+" value="501+"/>
+              </Option>
+            </Option>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="cloud_cov" configurationFlags="None">
+      <editWidget type="ValueMap">
+        <config>
+          <Option type="Map">
+            <Option type="List" name="map">
+              <Option type="Map">
+                <Option type="QString" name="skc_(sky_clear)" value="skc_(sky_clear)"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="few_(traces)" value="few_(traces)"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="sct_(scattered)" value="sct_(scattered)"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="bkn_(broken)" value="bkn_(broken)"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="ovc_(overcast)" value="ovc_(overcast)"/>
+              </Option>
+            </Option>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="cloud_thic" configurationFlags="None">
+      <editWidget type="ValueMap">
+        <config>
+          <Option type="Map">
+            <Option type="List" name="map">
+              <Option type="Map">
+                <Option type="QString" name="none" value="none"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="thin" value="thin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="medium_thin" value="medium_thin"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="thick" value="thick"/>
+              </Option>
+            </Option>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="environmen" configurationFlags="None">
+      <editWidget type="ValueMap">
+        <config>
+          <Option type="Map">
+            <Option type="List" name="map">
+              <Option type="Map">
+                <Option type="QString" name="bedrock" value="bedrock"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="cobble_beach" value="cobble_beach"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="estuary_mud_flat" value="estuary_mud_flat"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="gravel_beach" value="gravel_beach"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="man_made_structure" value="man_made_structure"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="mangrove" value="mangrove"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="marsh_brackish" value="marsh_brackish"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="marsh_freshwater" value="marsh_freshwater"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="nearshore_waters_&lt;1km" value="nearshore_waters_&lt;1km"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="offshore_waters_>1km" value="offshore_waters_>1km"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="sand_beach_dark" value="sand_beach_dark"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="sand_beach_light" value="sand_beach_light"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="shell_beach" value="shell_beach"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="vegetated_trees" value="vegetated_trees"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="vegetated_wetland" value="vegetated_wetland"/>
+              </Option>
+            </Option>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="img_bright" configurationFlags="None">
+      <editWidget type="ValueMap">
+        <config>
+          <Option type="Map">
+            <Option type="List" name="map">
+              <Option type="Map">
+                <Option type="QString" name="bright" value="bright"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="moderate" value="moderate"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="dark" value="dark"/>
+              </Option>
+            </Option>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="shade" configurationFlags="None">
+      <editWidget type="ValueMap">
+        <config>
+          <Option type="Map">
+            <Option type="List" name="map">
+              <Option type="Map">
+                <Option type="QString" name="full_shade" value="full_shade"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="partial_shade" value="partial_shade"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="no_shade" value="no_shade"/>
+              </Option>
+            </Option>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="ice_cover" configurationFlags="None">
+      <editWidget type="ValueMap">
+        <config>
+          <Option type="Map">
+            <Option type="List" name="map">
+              <Option type="Map">
+                <Option type="QString" name="none" value="none"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="low" value="low"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="medium" value="medium"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="dense" value="dense"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="very_dense" value="very_dense"/>
+              </Option>
+            </Option>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="comments" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option type="Map">
+            <Option type="bool" name="IsMultiline" value="false"/>
+            <Option type="bool" name="UseHtml" value="false"/>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+  </fieldConfiguration>
+  <aliases>
+    <alias field="id" name="" index="0"/>
+    <alias field="observer" name="" index="1"/>
+    <alias field="location" name="" index="2"/>
+    <alias field="satellite" name="" index="3"/>
+    <alias field="img_cat_id" name="" index="4"/>
+    <alias field="img_date" name="" index="5"/>
+    <alias field="img_time" name="" index="6"/>
+    <alias field="gsd_m" name="" index="7"/>
+    <alias field="prod_type" name="" index="8"/>
+    <alias field="projection" name="" index="9"/>
+    <alias field="pansharpen" name="" index="10"/>
+    <alias field="band_combi" name="" index="11"/>
+    <alias field="feature" name="" index="12"/>
+    <alias field="*deco_phas" name="" index="13"/>
+    <alias field="*certainty" name="" index="14"/>
+    <alias field="*species" name="" index="15"/>
+    <alias field="*colour" name="" index="16"/>
+    <alias field="*body_shap" name="" index="17"/>
+    <alias field="*length" name="" index="18"/>
+    <alias field="*width" name="" index="19"/>
+    <alias field="*flippers" name="" index="20"/>
+    <alias field="*fluke" name="" index="21"/>
+    <alias field="*slick/blo" name="" index="22"/>
+    <alias field="*group" name="" index="23"/>
+    <alias field="cloud_cov" name="" index="24"/>
+    <alias field="cloud_thic" name="" index="25"/>
+    <alias field="environmen" name="" index="26"/>
+    <alias field="img_bright" name="" index="27"/>
+    <alias field="shade" name="" index="28"/>
+    <alias field="ice_cover" name="" index="29"/>
+    <alias field="comments" name="" index="30"/>
+  </aliases>
+  <defaults>
+    <default field="id" expression="" applyOnUpdate="0"/>
+    <default field="observer" expression="" applyOnUpdate="0"/>
+    <default field="location" expression="" applyOnUpdate="0"/>
+    <default field="satellite" expression="" applyOnUpdate="0"/>
+    <default field="img_cat_id" expression="" applyOnUpdate="0"/>
+    <default field="img_date" expression="" applyOnUpdate="0"/>
+    <default field="img_time" expression="" applyOnUpdate="0"/>
+    <default field="gsd_m" expression="" applyOnUpdate="0"/>
+    <default field="prod_type" expression="" applyOnUpdate="0"/>
+    <default field="projection" expression="" applyOnUpdate="0"/>
+    <default field="pansharpen" expression="" applyOnUpdate="0"/>
+    <default field="band_combi" expression="" applyOnUpdate="0"/>
+    <default field="feature" expression="" applyOnUpdate="0"/>
+    <default field="*deco_phas" expression="" applyOnUpdate="0"/>
+    <default field="*certainty" expression="" applyOnUpdate="0"/>
+    <default field="*species" expression="" applyOnUpdate="0"/>
+    <default field="*colour" expression="" applyOnUpdate="0"/>
+    <default field="*body_shap" expression="" applyOnUpdate="0"/>
+    <default field="*length" expression="" applyOnUpdate="0"/>
+    <default field="*width" expression="" applyOnUpdate="0"/>
+    <default field="*flippers" expression="" applyOnUpdate="0"/>
+    <default field="*fluke" expression="" applyOnUpdate="0"/>
+    <default field="*slick/blo" expression="" applyOnUpdate="0"/>
+    <default field="*group" expression="" applyOnUpdate="0"/>
+    <default field="cloud_cov" expression="" applyOnUpdate="0"/>
+    <default field="cloud_thic" expression="" applyOnUpdate="0"/>
+    <default field="environmen" expression="" applyOnUpdate="0"/>
+    <default field="img_bright" expression="" applyOnUpdate="0"/>
+    <default field="shade" expression="" applyOnUpdate="0"/>
+    <default field="ice_cover" expression="" applyOnUpdate="0"/>
+    <default field="comments" expression="" applyOnUpdate="0"/>
+  </defaults>
+  <constraints>
+    <constraint field="id" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+    <constraint field="observer" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+    <constraint field="location" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+    <constraint field="satellite" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+    <constraint field="img_cat_id" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+    <constraint field="img_date" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+    <constraint field="img_time" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+    <constraint field="gsd_m" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+    <constraint field="prod_type" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+    <constraint field="projection" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+    <constraint field="pansharpen" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+    <constraint field="band_combi" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+    <constraint field="feature" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+    <constraint field="*deco_phas" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+    <constraint field="*certainty" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+    <constraint field="*species" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+    <constraint field="*colour" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+    <constraint field="*body_shap" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+    <constraint field="*length" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+    <constraint field="*width" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+    <constraint field="*flippers" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+    <constraint field="*fluke" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+    <constraint field="*slick/blo" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+    <constraint field="*group" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+    <constraint field="cloud_cov" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+    <constraint field="cloud_thic" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+    <constraint field="environmen" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+    <constraint field="img_bright" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+    <constraint field="shade" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+    <constraint field="ice_cover" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+    <constraint field="comments" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+  </constraints>
+  <constraintExpressions>
+    <constraint field="id" exp="" desc=""/>
+    <constraint field="observer" exp="" desc=""/>
+    <constraint field="location" exp="" desc=""/>
+    <constraint field="satellite" exp="" desc=""/>
+    <constraint field="img_cat_id" exp="" desc=""/>
+    <constraint field="img_date" exp="" desc=""/>
+    <constraint field="img_time" exp="" desc=""/>
+    <constraint field="gsd_m" exp="" desc=""/>
+    <constraint field="prod_type" exp="" desc=""/>
+    <constraint field="projection" exp="" desc=""/>
+    <constraint field="pansharpen" exp="" desc=""/>
+    <constraint field="band_combi" exp="" desc=""/>
+    <constraint field="feature" exp="" desc=""/>
+    <constraint field="*deco_phas" exp="" desc=""/>
+    <constraint field="*certainty" exp="" desc=""/>
+    <constraint field="*species" exp="" desc=""/>
+    <constraint field="*colour" exp="" desc=""/>
+    <constraint field="*body_shap" exp="" desc=""/>
+    <constraint field="*length" exp="" desc=""/>
+    <constraint field="*width" exp="" desc=""/>
+    <constraint field="*flippers" exp="" desc=""/>
+    <constraint field="*fluke" exp="" desc=""/>
+    <constraint field="*slick/blo" exp="" desc=""/>
+    <constraint field="*group" exp="" desc=""/>
+    <constraint field="cloud_cov" exp="" desc=""/>
+    <constraint field="cloud_thic" exp="" desc=""/>
+    <constraint field="environmen" exp="" desc=""/>
+    <constraint field="img_bright" exp="" desc=""/>
+    <constraint field="shade" exp="" desc=""/>
+    <constraint field="ice_cover" exp="" desc=""/>
+    <constraint field="comments" exp="" desc=""/>
+  </constraintExpressions>
+  <expressionfields/>
+  <attributeactions>
+    <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+  </attributeactions>
+  <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+    <columns>
+      <column type="field" name="id" width="-1" hidden="0"/>
+      <column type="field" name="observer" width="-1" hidden="0"/>
+      <column type="field" name="location" width="-1" hidden="0"/>
+      <column type="field" name="satellite" width="-1" hidden="0"/>
+      <column type="field" name="img_cat_id" width="-1" hidden="0"/>
+      <column type="field" name="img_date" width="-1" hidden="0"/>
+      <column type="field" name="img_time" width="-1" hidden="0"/>
+      <column type="field" name="gsd_m" width="-1" hidden="0"/>
+      <column type="field" name="prod_type" width="-1" hidden="0"/>
+      <column type="field" name="projection" width="-1" hidden="0"/>
+      <column type="field" name="pansharpen" width="-1" hidden="0"/>
+      <column type="field" name="band_combi" width="-1" hidden="0"/>
+      <column type="field" name="feature" width="-1" hidden="0"/>
+      <column type="field" name="*deco_phas" width="-1" hidden="0"/>
+      <column type="field" name="*certainty" width="-1" hidden="0"/>
+      <column type="field" name="*species" width="-1" hidden="0"/>
+      <column type="field" name="*colour" width="-1" hidden="0"/>
+      <column type="field" name="*body_shap" width="-1" hidden="0"/>
+      <column type="field" name="*length" width="-1" hidden="0"/>
+      <column type="field" name="*width" width="-1" hidden="0"/>
+      <column type="field" name="*flippers" width="-1" hidden="0"/>
+      <column type="field" name="*fluke" width="-1" hidden="0"/>
+      <column type="field" name="*slick/blo" width="-1" hidden="0"/>
+      <column type="field" name="*group" width="-1" hidden="0"/>
+      <column type="field" name="cloud_cov" width="-1" hidden="0"/>
+      <column type="field" name="cloud_thic" width="-1" hidden="0"/>
+      <column type="field" name="environmen" width="-1" hidden="0"/>
+      <column type="field" name="img_bright" width="-1" hidden="0"/>
+      <column type="field" name="shade" width="-1" hidden="0"/>
+      <column type="field" name="ice_cover" width="-1" hidden="0"/>
+      <column type="field" name="comments" width="-1" hidden="0"/>
+      <column type="actions" width="-1" hidden="1"/>
+    </columns>
+  </attributetableconfig>
+  <conditionalstyles>
+    <rowstyles/>
+    <fieldstyles/>
+  </conditionalstyles>
+  <storedexpressions/>
+  <editform tolerant="1"></editform>
+  <editforminit/>
+  <editforminitcodesource>0</editforminitcodesource>
+  <editforminitfilepath></editforminitfilepath>
+  <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+    geom = feature.geometry()
+    control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+  <featformsuppress>0</featformsuppress>
+  <editorlayout>generatedlayout</editorlayout>
+  <editable>
+    <field name="*body_shap" editable="1"/>
+    <field name="*certainty" editable="1"/>
+    <field name="*colour" editable="1"/>
+    <field name="*deco_phas" editable="1"/>
+    <field name="*flippers" editable="1"/>
+    <field name="*fluke" editable="1"/>
+    <field name="*group" editable="1"/>
+    <field name="*length" editable="1"/>
+    <field name="*slick/blo" editable="1"/>
+    <field name="*species" editable="1"/>
+    <field name="*width" editable="1"/>
+    <field name="band_combi" editable="1"/>
+    <field name="cloud_cov" editable="1"/>
+    <field name="cloud_thic" editable="1"/>
+    <field name="comments" editable="1"/>
+    <field name="environmen" editable="1"/>
+    <field name="feature" editable="1"/>
+    <field name="gsd_m" editable="1"/>
+    <field name="ice_cover" editable="1"/>
+    <field name="id" editable="1"/>
+    <field name="img_bright" editable="1"/>
+    <field name="img_cat_id" editable="1"/>
+    <field name="img_date" editable="1"/>
+    <field name="img_time" editable="1"/>
+    <field name="location" editable="1"/>
+    <field name="observer" editable="1"/>
+    <field name="pansharpen" editable="1"/>
+    <field name="prod_type" editable="1"/>
+    <field name="projection" editable="1"/>
+    <field name="satellite" editable="1"/>
+    <field name="shade" editable="1"/>
+  </editable>
+  <labelOnTop>
+    <field labelOnTop="0" name="*body_shap"/>
+    <field labelOnTop="0" name="*certainty"/>
+    <field labelOnTop="0" name="*colour"/>
+    <field labelOnTop="0" name="*deco_phas"/>
+    <field labelOnTop="0" name="*flippers"/>
+    <field labelOnTop="0" name="*fluke"/>
+    <field labelOnTop="0" name="*group"/>
+    <field labelOnTop="0" name="*length"/>
+    <field labelOnTop="0" name="*slick/blo"/>
+    <field labelOnTop="0" name="*species"/>
+    <field labelOnTop="0" name="*width"/>
+    <field labelOnTop="0" name="band_combi"/>
+    <field labelOnTop="0" name="cloud_cov"/>
+    <field labelOnTop="0" name="cloud_thic"/>
+    <field labelOnTop="0" name="comments"/>
+    <field labelOnTop="0" name="environmen"/>
+    <field labelOnTop="0" name="feature"/>
+    <field labelOnTop="0" name="gsd_m"/>
+    <field labelOnTop="0" name="ice_cover"/>
+    <field labelOnTop="0" name="id"/>
+    <field labelOnTop="0" name="img_bright"/>
+    <field labelOnTop="0" name="img_cat_id"/>
+    <field labelOnTop="0" name="img_date"/>
+    <field labelOnTop="0" name="img_time"/>
+    <field labelOnTop="0" name="location"/>
+    <field labelOnTop="0" name="observer"/>
+    <field labelOnTop="0" name="pansharpen"/>
+    <field labelOnTop="0" name="prod_type"/>
+    <field labelOnTop="0" name="projection"/>
+    <field labelOnTop="0" name="satellite"/>
+    <field labelOnTop="0" name="shade"/>
+  </labelOnTop>
+  <reuseLastValue>
+    <field name="*body_shap" reuseLastValue="0"/>
+    <field name="*certainty" reuseLastValue="0"/>
+    <field name="*colour" reuseLastValue="0"/>
+    <field name="*deco_phas" reuseLastValue="0"/>
+    <field name="*flippers" reuseLastValue="0"/>
+    <field name="*fluke" reuseLastValue="0"/>
+    <field name="*group" reuseLastValue="0"/>
+    <field name="*length" reuseLastValue="0"/>
+    <field name="*slick/blo" reuseLastValue="0"/>
+    <field name="*species" reuseLastValue="0"/>
+    <field name="*width" reuseLastValue="0"/>
+    <field name="band_combi" reuseLastValue="0"/>
+    <field name="cloud_cov" reuseLastValue="0"/>
+    <field name="cloud_thic" reuseLastValue="0"/>
+    <field name="comments" reuseLastValue="0"/>
+    <field name="environmen" reuseLastValue="0"/>
+    <field name="feature" reuseLastValue="0"/>
+    <field name="gsd_m" reuseLastValue="0"/>
+    <field name="ice_cover" reuseLastValue="0"/>
+    <field name="id" reuseLastValue="0"/>
+    <field name="img_bright" reuseLastValue="0"/>
+    <field name="img_cat_id" reuseLastValue="0"/>
+    <field name="img_date" reuseLastValue="0"/>
+    <field name="img_time" reuseLastValue="0"/>
+    <field name="location" reuseLastValue="0"/>
+    <field name="observer" reuseLastValue="1"/>
+    <field name="pansharpen" reuseLastValue="0"/>
+    <field name="prod_type" reuseLastValue="0"/>
+    <field name="projection" reuseLastValue="0"/>
+    <field name="satellite" reuseLastValue="0"/>
+    <field name="shade" reuseLastValue="0"/>
+  </reuseLastValue>
+  <dataDefinedFieldProperties/>
+  <widgets/>
+  <previewExpression>"id"</previewExpression>
+  <mapTip></mapTip>
+  <layerGeometryType>0</layerGeometryType>
+</qgis>
