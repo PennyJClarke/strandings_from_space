@@ -49,7 +49,7 @@ A visual representation of the steps within the python custom tool (strandings_f
 
 <img width="2223" height="3014" alt="Process_flow" src="https://github.com/user-attachments/assets/779e098b-2d86-40b7-87bb-6d992a2e81c6" /> <br>
 
-For full details each of the steps and more information on acquiring satellite imagery, view 'S2_QGIS_Strandings_from_Space_Pipeline' in either the 'qgis' folder in this repository (most up to date version) or in the supplmental materials of the associated manuscript (doi link). <br>
+For full details each of the steps and more information on acquiring satellite imagery, view 'S2_QGIS_Strandings_from_Space_Pipeline' in either the 'qgis' folder in this repository (most up to date version) or in the supplemental materials of the associated manuscript (doi link). <br>
 
 Due to licencing agreements, satellite imagery used in the associated manuscript are not shared here or in the associated dataset (doi link), however, the full metadata of the satellite imagery (optical: GeoEYE-1, Worldview-2 (WV2) and Worldview-3 (WV3), Pleiades, and SAR: TerraSAR-X) associated with the data are provided in supplemental S1 of the associated manuscript (doi link). <br>
 
@@ -283,7 +283,7 @@ This research has been supported by the Natural Environment Research Council (NE
 ## 7. Citation <br>
 To use this code or associated dataset, please cite:<br>
 
-**Associated manuscipt:**<br>
+**Associated manuscript:**<br>
 Clarke et al. (2025 ) Odontocete strandings from space: Accurately counting individuals with very-high resolution optical and SAR satellite imagery. Remote Sensing of Environment.
 
 ### 7.1 Data <br>
