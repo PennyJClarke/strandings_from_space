@@ -5,11 +5,11 @@ gdal_cubic_spline,gdal_cubic_spline
 gdal_lanczos_windowed_sinc,gdal_lanczos_windowed_sinc
 gdal_nearest_neighbour,gdal_nearest_neighbour
 otb_bayes_bco,otb_bayes_bco
-otb_bayes_nn,otb_bayes_nn
 otb_bayes_linear,otb_bayes_linear
-otb_rcs_bco,otb_rcs_bco
-otb_rcs_nn,otb_rcs_nn
-otb_rcs_linear,otb_rcs_linear
+otb_bayes_nn,otb_bayes_nn
 otb_lmvm_bco,otb_lmvm_bco
-otb_lmvm_nn,otb_lmvm_nn
 otb_lmvm_linear,otb_lmvm_linear
+otb_lmvm_nn,otb_lmvm_nn
+otb_rcs_bco,otb_rcs_bco
+otb_rcs_linear,otb_rcs_linear
+otb_rcs_nn,otb_rcs_nn

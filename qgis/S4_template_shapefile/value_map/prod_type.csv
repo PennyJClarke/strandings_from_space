@@ -1,0 +1,16 @@
+analysis_ready,analysis_ready
+"map-ready_ortho_1_12,000","map-ready_ortho_1_12,000"
+map-ready_ortho_3d,map-ready_ortho_3d
+ortho,ortho
+photogrammetry_ready,photogrammetry_ready
+primary,primary
+projected,projected
+skysat_basic_scene,skysat_basic_scene
+skysat_ortho_collect,skysat_ortho_collect
+skysat_ortho_scene,skysat_ortho_scene
+system-ready_basic_1b,system-ready_basic_1b
+system-ready_stereo_basic_1b,system-ready_stereo_basic_1b
+view_ready,view_ready
+view-ready_standard_2a,view-ready_standard_2a
+view-ready_standard_or2a,view-ready_standard_or2a
+view-ready_stereo_standard_or2a,view-ready_stereo_standard_or2a
