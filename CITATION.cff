@@ -1,0 +1,119 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: strandings_from_space
+message: >-
+  Please cite this software using the metadata from  
+  "preferred-citation". If you wish to use the exact
+  version   of the code, you may additionally cite the
+  Zenodo DOI.
+type: software
+authors:
+  - given-names: Penny J.
+    family-names: Clarke
+    email: clarke.pennyj@gmail.com
+    affiliation: British Antarctic Survey
+    orcid: 'https://orcid.org/0000-0002-2648-9639'
+  - given-names: Hannah C.
+    family-names: Cubaynes
+    affiliation: British Antarctic Survey
+    orcid: 'https://orcid.org/0000-0002-9497-154X'
+  - given-names: Karen A.
+    family-names: Stockin
+    affiliation: Massey University
+    orcid: 'https://orcid.org/0000-0002-2981-3983'
+  - given-names: Ellen
+    family-names: Bowler
+    affiliation: 'British Antarctic Survey '
+    orcid: 'https://orcid.org/0000-0002-9681-1355'
+  - given-names: Kris
+    family-names: Carlyon
+    affiliation: >-
+      Department of Natural Resources and Environment
+      Tasmania
+  - given-names: Marie R. G.
+    family-names: Attard
+    affiliation: British Antarctic Survey
+    orcid: 'https://orcid.org/0000-0002-8509-3677'
+  - given-names: Peter T.
+    family-names: Fretwell
+    affiliation: British Antarctic Survey
+    orcid: 'https://orcid.org/0000-0002-1988-5844'
+  - given-names: Aliaksandra
+    family-names: Skachkova
+    affiliation: British Antarctic Survey
+    orcid: 'https://orcid.org/0000-0003-3557-4816'
+  - given-names: Asha
+    family-names: de Vos
+    affiliation: Oceanswell
+    orcid: 'https://orcid.org/0000-0003-3332-8232'
+  - given-names: Kaitlin M.
+    family-names: McConnell
+    affiliation: Estación Científica Fundación San Ignacio del Huinay
+  - given-names: Encarni
+    family-names: Medina-Lopez
+    affiliation: University of Edinburgh
+    orcid: 'https://orcid.org/0000-0001-5163-4511'
+  - given-names: Sergio
+    family-names: Lopez Dubon
+    affiliation: University of Edinburgh
+    orcid: 'https://orcid.org/0000-0003-0663-607X'
+  - given-names: Jennifer A.
+    family-names: Jackson
+    affiliation: British Antarctic Survey
+    orcid: 'https://orcid.org/0000-0003-4158-1924'
+identifiers:
+  - type: doi
+    value:
+    description: The concept DOI of the work.
+  - type: url
+    value: 'https://github.com/PennyJClarke/strandings_from_space'
+    description: The URL of most up to date version of the software
+repository-code: 'https://github.com/PennyJClarke/strandings_from_space'
+abstract: "A very high-resolution (VHR) satellite image pre-processing and annotation pipeline for stranded whales and dolphins (adaptable to any feature of interest), and a semi-automated multi-observer annotation comparison workflow for evaluating count congruence, for annotations made in geolocated satellite imagery (latitude, longitude) and unknown reference aerial imagery (row, col). The repository includes (1) a step-by-step VHR satellite image pre-processing and annotation workflow for detecting features of interest (geolocated point, bounding box and image chip outputs), developed using QGIS 3.28, (2) a replicable step-by-step VHR satellite image pre-processing and annotation workflow in Python 3.10, and (3) a data standard for the ‘satellites to study stranded cetaceans’ community, including a template for recording annotation metadata and accompanying training document, to enable data sharing internationally."
+keywords:
+  - cetacean stranding
+  - colonial science
+  - machine learning
+  - remote sensing
+  - standardised training data
+  - vhr optical satellite imagery
+  - wildlife
+license: MIT
+commit:
+version: 'version: v1.0.0'
+date-released: '2026-06-04'
+preferred-citation:
+  type: article
+  title: "Open-source satellite image pre-processing and annotation workflows: Stranded whale and dolphin case study"
+  authors:
+    - family-names: "Clarke"
+      given-names: "Penny J."
+    - family-names: "Cubaynes"
+      given-names: "Hannah C."
+    - family-names: "Stockin"
+      given-names: "Karen A."
+    - family-names: "Bowler"
+      given-names: "Ellen"
+    - family-names: "Carlyon"
+      given-names: "Kris"
+    - family-names: "Attard"
+      given-names: "Marie R. G."
+    - family-names: "Fretwell"
+      given-names: "Peter T."
+    - family-names: "Skachkova"
+      given-names: "Aliaksandra"
+    - family-names: "de Vos"
+      given-names: "Asha"
+    - family-names: "McConnell"
+      given-names: "Kaitlin M."
+    - family-names: "Medina-Lopez"
+      given-names: "Encarni"
+    - family-names: "Lopez Dubon"
+      given-names: "Sergio"
+    - family-names: "Jackson"
+      given-names: "Jennifer A."
+  journal: "MethodsX"
+  year: 2026
+  status: Published
