@@ -285,8 +285,8 @@ This research has been supported by the Natural Environment Research Council (NE
 To use this code or associated dataset, please cite (see https://github.com/PennyJClarke/strandings_from_space for the most up-to-date citations):<br>
 
 **Associated manuscripts:**<br>
-Clarke, P. J., Cubaynes, H. C., Stockin, K. A., Bowler, E., Carlyon, K., Attard, M. R. G., Fretwell, P. F., Skachkova, A., de Vos, A., McConnell, K. M., Medina-López, E., Lopez Dubon, S., and Jackson, J. A. (2026). _Open-source satellite image pre-processing and annotation workflows: Stranded whale and dolphin case study_. MethodsX. https://doi.org/10.1016/j.mex.2026.103949 <br>
-Clarke, P. J., Cubaynes, H. C., Stockin, K. A., Bowler, E., Carlyon, K., Attard, M. R. G., Fretwell, P. F., Skachkova, A., de Vos, A., McConnell, K. M., Medina-López, E., Lopez Dubon, S., and Jackson, J. A. (Under review). _Odontocete strandings from space: Accurately counting individuals with very-high resolution optical and SAR satellite imagery_. Ecological Informatics. 
+Clarke, P. J., Cubaynes, H. C., Stockin, K. A., Bowler, E., Carlyon, K., Attard, M. R. G., Fretwell, P. T., Skachkova, A., de Vos, A., McConnell, K. M., Medina-López, E., Lopez Dubon, S., and Jackson, J. A. (2026). _Open-source satellite image pre-processing and annotation workflows: Stranded whale and dolphin case study_. MethodsX. https://doi.org/10.1016/j.mex.2026.103949 <br>
+Clarke, P. J., Cubaynes, H. C., Stockin, K. A., Bowler, E., Carlyon, K., Attard, M. R. G., Fretwell, P. T., Skachkova, A., de Vos, A., McConnell, K. M., Medina-López, E., Lopez Dubon, S., and Jackson, J. A. (Under review). _Odontocete strandings from space: Accurately counting individuals with very-high resolution optical and SAR satellite imagery_. Ecological Informatics. 
 
 ### 7.1 Data <br>
 **Dataset for use with the semi-automated clustering workflow 'cetacean_strandings_from_space_comparing_counts.ipynb':**<br>
