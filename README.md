@@ -1,4 +1,6 @@
 # strandings_from_space
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20547057.svg)](https://doi.org/10.5281/zenodo.20547057) <br>
+
 A very high-resolution (VHR) satellite image pre-processing and annotation pipeline for stranded whales and dolphins (adaptable to any feature of interest), and a semi-automated multi-observer annotation comparison workflow for evaluating count congruence, for annotations made in geolocated satellite imagery (latitude, longitude) and unknown reference aerial imagery (row, col).
 
 Example strandings_from_space pipeline (strandings_from_space_pipeline.ipynb), a VHR satellite image annotation user interface, with custom attribute table that integrates dropdown entries of the required and desirable attributes for the strandings from space community, reviewed by stranding experts and the wider ‘Using Satellites to Study Whales’ community during a best practice workshop at the Society of Marine Mammalogy Conference 2024:
