@@ -65,7 +65,7 @@ authors:
     orcid: 'https://orcid.org/0000-0003-4158-1924'
 identifiers:
   - type: doi
-    value:
+    value: doi.org/10.5281/zenodo.20547057
     description: The concept DOI of the work.
   - type: url
     value: 'https://github.com/PennyJClarke/strandings_from_space'
@@ -81,7 +81,7 @@ keywords:
   - vhr optical satellite imagery
   - wildlife
 license: MIT
-commit:
+commit: https://doi.org/10.5281/zenodo.20547057
 version: 'version: v1.0.0'
 date-released: '2026-06-04'
 preferred-citation:
