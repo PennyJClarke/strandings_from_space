@@ -6,6 +6,10 @@ __pycache__/
 # Pytest
 .pytest_cache/
 
+# Notebook/script backups
+*.bak*
+*.bak_*
+
 # Jupyter
 .ipynb_checkpoints/
 
