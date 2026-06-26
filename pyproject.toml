@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "strandings-from-space-core"
+version = "0.1.0"
+description = "Testable helper utilities for the strandings_from_space notebook workflows"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn",
+    "scikit-image",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=8",
+]
+geospatial = [
+    "rasterio",
+    "pyproj",
+]
+
+[tool.setuptools.packages.find]
+include = ["strandings_from_space*"]
+exclude = ["tests*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-ra"

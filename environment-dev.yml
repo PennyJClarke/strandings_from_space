@@ -1,0 +1,19 @@
+name: sfs-dev
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pandas
+  - matplotlib
+  - seaborn
+  - numpy
+  - pillow
+  - scikit-learn
+  - scipy
+  - rasterio
+  - pyproj
+  - scikit-image
+  - notebook
+  - pytest
+  - pip
